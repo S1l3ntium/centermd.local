@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+html {
+	opacity: 1 !important;
+}
+
+body {
+	background: url(/public/default/images/admin-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #606468;
+	font-size: 14px;
+	backdrop-filter: saturate(180%) blur(6px);
+	line-height: 1.5em;
+}
+
+a {
+	color: #eee;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input {
+	border: none;
+	font-size: 14px;
+	line-height: 1.5em;
+	padding: 0;
+	-webkit-appearance: none;
+	color: #fff;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.clearfix{
+	border-radius: 6px;
+	padding:  1.5rem;
+	background: rgba(0,0,0,0.7);
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 0.0666667px 0.133333px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+}
+.clearfix p:last-child{
+	margin-bottom: 0px;
+}
+.clearfix { *zoom: 1; } /* For IE 6/7 */
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: "";
+}
+.clearfix:after { clear: both; }
+
+/* ---------- LOGIN ---------- */
+
+#login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+
+/*#login form {
+	margin-bottom: 200px;
+}*/
+#login form span {
+	background-color: #363b41;
+	border-radius: 3px 0px 0px 3px;
+	-moz-border-radius: 3px 0px 0px 3px;
+	-webkit-border-radius: 3px 0px 0px 3px;
+	color: #606468;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+#login form input {
+	height: 50px;
+	outline:none;
+}
+
+#login form input[type="text"], input[type="password"] {
+	background-color: #3b4148;
+	border-radius: 0px 3px 3px 0px;
+	-moz-border-radius: 0px 3px 3px 0px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	color: #aaa;
+	margin-bottom: 8px;
+	padding: 0 16px;
+	width: calc(100% - 50px);
+	font-size: 16px;
+}
+
+#login form input:focus {
+	color:#fff;
+}
+
+#login form input[type="submit"] {
+	border-radius: 3px;
+	background-color: #ED4D1A;
+	color: #eee;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+	width: 100%;
+	transition-duration: .3s;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: 0.4px;
+	-webkit-appearance: none;
+}
+
+#login form input[type="submit"]:hover {
+	background-color: rgba(237, 77, 26, 0.8);
+}
+
+#login > p {
+	text-align: center;
+}
+
+#login > p span {
+	padding-left: 5px;
+}
+
+.logo-as {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 24px;
+}
+
+.logo-as img {
+	width: 120px;
+}

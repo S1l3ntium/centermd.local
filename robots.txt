@@ -1,0 +1,9 @@
+User-agent: *
+
+#image
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.webp
+Allow: *.png
+Allow: *.svg
+Allow: *.pdf

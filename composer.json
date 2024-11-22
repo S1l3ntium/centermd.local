@@ -1,0 +1,55 @@
+{
+    "name": "silentium/centermd.local",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.vrn.tv/ggs/smarty-fork.git",
+            "package": {
+                "name": "smarty/smarty"
+            }
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "php": ">=7.4",
+        "ext-imagick": "*",
+        "illuminate/database": ">=7.3",
+        "illuminate/events": ">=7.3",
+        "symfony/http-foundation": "^5.0",
+        "geoip2/geoip2": "~2.0",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "donatj/phpuseragentparser": "^1.1",
+        "gregwar/captcha": "^1.1",
+        "filp/whoops": "^2.7",
+        "nette/forms": "^3.0",
+        "retrinko/ini": "^2.0",
+        "verot/class.upload.php": "*",
+        "cocur/slugify": "^4.0",
+        "aura/filter": "^2.3",
+        "owasp/csrf-protector-php": "dev-master",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-openssl": "*",
+        "cboden/ratchet": "*",
+        "php-ffmpeg/php-ffmpeg": "^0.19.0",
+        "arthurkushman/php-wss": "*",
+        "amorpha/kalinger-framework": "^1.0.0",
+        "amorpha/smarty": "^1.0.1",
+        "cartalyst/sentinel": "^7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Application\\": "application/",
+            "GlobalController\\": "application/controllers/",
+            "GlobalModel\\": "application/models/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Denis Chichmarev",
+            "email": "denis.chichmarev@gmail.com"
+        }
+    ]
+}

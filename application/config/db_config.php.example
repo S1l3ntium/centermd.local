@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Data for connecting to the database
+ *
+ * default charset utf-8
+ */
+
+return [
+
+    'dbname' => '',
+    'host' => '',
+    'user' => '',
+    'password' => '',
+    'charset' => 'utf-8'
+
+];

@@ -1,0 +1,13 @@
+.idea/
+vendor/
+application/config/config.php
+application/config/db_config.php
+application/config/ip_config.php
+application/config/routes.php
+application/tmp
+data/images/*
+!data/images/favicons
+!data/images/favicon*
+!data/images/sprite.svg
+sitemap.xml
+init_eloquent.php
