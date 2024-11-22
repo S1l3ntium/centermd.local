@@ -11,3 +11,4 @@ data/images/*
 !data/images/sprite.svg
 sitemap.xml
 init_eloquent.php
+application/controllers/MainController.php
